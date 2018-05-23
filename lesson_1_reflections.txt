@@ -1,0 +1,9 @@
+1. It could be useful when you want to know which lines you delete and if that deletion matches your expectation
+2. Easy to check typo
+3. You can refer back to any specific time when you changed the file
+4. pros: more flexible to choose when to save and what version to save.
+   cons: sometimes it could be nightmare when you forget to save a significant version change
+5. allowing saving multiples like Git avoids dis-match with files which must match with each other 
+6. use git log to view the whole history of commits and use git diff to compare two versions which will show you number of deletions and additions
+7. I am no longer afraid of making any subtle changes since I can always refer back when something unexpected happens
+8. Having my workspace setup, I want to try using Git for big project!
