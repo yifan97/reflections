@@ -1,0 +1,2 @@
+1. When I initialize a repository, .git will be created in my directory which I initialize and that directory turns to be a git repository
+2. Staging area differs from working directory since it is a state after something is added from working directory and it differs from repository because it is in a stand-by state which needs to be committed. It is valuable because it gives change to commit a bunch of files at one time
