@@ -1,9 +1,41 @@
-1. It could be useful when you want to know which lines you delete and if that deletion matches your expectation
-2. Easy to check typo
-3. You can refer back to any specific time when you changed the file
-4. pros: more flexible to choose when to save and what version to save.
-   cons: sometimes it could be nightmare when you forget to save a significant version change
-5. allowing saving multiples like Git avoids dis-match with files which must match with each other 
-6. use git log to view the whole history of commits and use git diff to compare two versions which will show you number of deletions and additions
-7. I am no longer afraid of making any subtle changes since I can always refer back when something unexpected happens
-8. Having my workspace setup, I want to try using Git for big project!
+1. How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It could be useful when you want to know which lines you delete and if that deletion matches your expectation
+
+
+2. How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Easy to check typo 
+You can refer back to any specific time when you changed the file
+
+
+3. What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+pros: more flexible to choose when to save and what version to save.
+cons: sometimes it could be nightmare when you forget to save a significant version change
+
+
+4. Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+allowing saving multiples like Git avoids dis-match with files which must match with each other because one file might require code from another file, or output something like a file that another file needs to work correctly, so that these files are linked together by their functions and their expected outputs/results. 
+
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+use git log to view the whole history of commits and use git diff to compare two versions which will show you number of deletions and additions
+
+
+6. How might using version control make you more confident to make changes that
+could break something?
+
+I am no longer afraid of making any subtle changes since I can always refer back when something unexpected happens
+
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+Having my workspace setup, I want to try using Git for big project!
