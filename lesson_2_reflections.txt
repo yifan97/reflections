@@ -1,2 +1,32 @@
-1. When I initialize a repository, .git will be created in my directory which I initialize and that directory turns to be a git repository
-2. Staging area differs from working directory since it is a state after something is added from working directory and it differs from repository because it is in a stand-by state which needs to be committed. It is valuable because it gives change to commit a bunch of files at one time
+1. What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository, .git will be created in my directory which I initialize and that directory turns to be a git repository
+
+
+2. How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+Staging area differs from working directory since it is a state after something is added from working directory and it differs from repository because it is in a stand-by state which needs to be committed. It is valuable because it gives change to commit a bunch of files at one time
+
+
+3. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Branches are helpful when I want to make a test/experimental change to files on main(master) branch but don't want to mess up with official commits.
+
+
+4. How do the diagrams help you visualize the branch structure?
+
+Branch diagram help me visualize branch structure by visually show where branches diverge and it's much easier to trace along
+
+
+5. What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+My merging two branches together, the master branch contains files history of sub-branch. The way diagram represents is to show that when delete the sub-branch, it is just deleting the name but is really keeping the history of it.
+
+
+6. What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Mannual merging allow collaborator to decide which change is official and final version when conflicts happen otherwise aumo merging would have no idea which one to merge.
