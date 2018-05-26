@@ -1,3 +1,30 @@
 1. When would you want to create a remote repository rather than keeping all your work local?
 
 When I can do some simple staff which woking with github website works just fine. ex. no coding staff, just typing something
+
+
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+It's verbose to have git automatically stay up-to-date with remote repository since you might constantly change remote repositories quite often. Moreover, chances are that when I first made some remote changes but then want to reverse that change, it would be better for local to stay where it was.
+
+
+3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks is how you can copy/clone other people's github repository into yours through github not local. 
+clones is how you can copy/clone your github/remote repository to your local computer or from local to local
+branches happen within one repository.
+
+
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It enables you to work on your own branch, the master branch of local repository while still can get access to remote version so that you can compare easily.
+
+
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git or Github, I could collaborate with others by constanly sharing update version through email, onling chating room, or some other version-control tool like dropbox, google docs.
+
+
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in seperate changes enable you to "try and error" and only when you are sure to commit can you merge it into your official version，namely master branch. However, just working on master has its own merit. For example, it's much less complicated to make changes, make commit and push and pull.
